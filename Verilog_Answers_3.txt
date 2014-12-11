@@ -1,0 +1,12 @@
+
+
+module sinav3(
+input [7:0] x, y
+output [3:0] z );
+
+wire [8:0] t;
+
+assign t=x+y;
+assign z= (t[0]) ? (t+1)>>1 : t>>1;
+
+endmodule
