@@ -1,4 +1,4 @@
-#First Way
+# First Way
 
 module sinav1(
 input [7:0] x,
@@ -9,7 +9,7 @@ assign y=x[7] + x[6] + x[5] + x[4] + x[3] + x[2] + x[1] + x[0];
 endmodule
 
 
-#Second Way
+# Second Way
 
 module 1_sinavsorusu(
 input [7:0] x,
